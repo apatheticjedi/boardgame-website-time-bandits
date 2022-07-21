@@ -20,7 +20,7 @@ body {
     color: #660000;
     text-align: right;
     font-size: xx-large;
-    background-image: url(../assets/images/banner_top.png);
+    background-image: url(/assets/images/banner_top.png);
     background-repeat: no-repeat;
     height: 125px;
     margin-top: 50px;
@@ -130,7 +130,7 @@ h3 {
 
 footer {
     color: #660000;
-    background-image: url(../assets/images/banner_bottom.png);
+    background-image: url(/assets/images/banner_bottom.png);
     height: 75px;
     background-repeat: no-repeat;
     font-size: x-large;
@@ -233,9 +233,8 @@ textarea {
     width: 80rem;
     color: #CCCC99;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-    text-align: right;
+    text-align: center;
     margin: 30px;
-    position: sticky;
 }
 
 #animation_container {
@@ -314,8 +313,11 @@ textarea {
 
     .submit {
         display: block;
-        width: 25%;
+        width: 20%;
         margin: auto;
+        font-size: large;
+        font-weight: bold;
+        padding: 10px;
     }
 
     .blog p {
